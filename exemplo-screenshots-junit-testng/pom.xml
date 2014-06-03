@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>screenshots.exemplo</groupId>
+  <artifactId>exemplo-screenshots-junit-testng</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>Projeto de exemplo mostrando implementações de screenshot on failure com Selenium WebDriver, JUnit e TestNG.</name>
+  
+  <dependencies>
+      <dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-java</artifactId>
+  		<version>2.41.0</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.seleniumhq.selenium</groupId>
+  		<artifactId>selenium-server</artifactId>
+  		<version>2.41.0</version>
+  	</dependency>  	
+  	<dependency>
+  		<groupId>junit</groupId>
+  		<artifactId>junit</artifactId>
+  		<version>4.11</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.testng</groupId>
+  		<artifactId>testng</artifactId>
+  		<version>6.8.8</version>
+  	</dependency>
+  </dependencies>
+</project>
